@@ -66,3 +66,13 @@ To create the same project you can follow the steps:
    ```"start:dev": "nodemon"```\
    ```"build": "rimraf ./build && tsc"```\
    ```"start": "npm run build && node build/index.js"```
+
+### Notes
+The project also uses lint, prettier and husky. You can include these tools through the references below.
+
+## References
+
+[How to Setup a TypeScript + Node.js Project](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
+[How to use ESLint with TypeScript](https://khalilstemmler.com/blogs/typescript/eslint-for-typescript/)
+[How to use Prettier with ESLint and TypeScript in VSCode](https://khalilstemmler.com/blogs/tooling/prettier/)
+[I'm an inline-style link](https://khalilstemmler.com/blogs/tooling/enforcing-husky-precommit-hooks/)
