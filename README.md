@@ -48,20 +48,20 @@ To create the same project you can follow the steps:
 
 2. Add a nodemon.json config:
 
-   ```
+```
 {
   "watch": ["src"],
   "ext": ".ts,.js",
   "ignore": [],
   "exec": "ts-node ./src/index.ts"
 }
-   ```
+```
 
-3. Install rimraf:
+1. Install rimraf:
 
    ```npm install --save-dev rimraf```
 
-4. Add scripts on package.json:
+2. Add scripts on package.json:
 
    ```"start:dev": "nodemon"```\
    ```"build": "rimraf ./build && tsc"```\
